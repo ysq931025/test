@@ -1,0 +1,285 @@
+body {
+	background-color: #FAFAFA;
+}
+
+.clearfloat:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+.clearfloat {
+	zoom: 1;
+}
+
+.content {
+	background-color: #FAFAFA;
+}
+
+.headerStyle {
+	background-color: #6F9AE9;
+	z-index: 999;
+}
+
+.headTxt {
+	text-align: left;
+	font-size: 0.85rem;
+	color: #FFFFFF;
+}
+
+.headerIcon {
+	color: #FFFFFF;
+}
+
+.ipInputDiv {
+	width: 100%;
+	height: 2.6rem;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1rem;
+	padding: 0rem 0.5rem 0.5rem 0.5rem;
+	background-color: #FAFAFA;
+
+}
+
+.ipInputDiv:before {
+	background-color: #FAFAFA;
+}
+
+.ipInputDiv:after {
+	background-color: #FAFAFA;
+}
+
+.ipSetTxt {
+	color: #7D7D7D;
+	padding-top: 0.625rem;
+	line-height: 1.3125rem;
+}
+
+.ipInputDiv input {
+	width: 19%;
+	border: solid 1.1px #8F8F94;
+	border-radius: 0.3125rem;
+	background-color: #FFFFFF;
+}
+
+.sedIpInput {
+	width: 84% !important;
+}
+
+.TrdIpInput {
+	width: 83% !important;
+}
+
+.saveBtnDiv {
+	width: 100%;
+	text-align: center;
+	margin-top: 1rem;
+}
+
+.saveBtn {
+	width: 95%;
+
+}
+
+.avater {
+	background: url(../images/ic_launcher.png)0px -1.875rem no-repeat;
+	display: block;
+	overflow: hidden;
+	width: 2.3rem;
+	height: 2.3rem;
+	border-radius: 55px;
+	line-height: 2.3rem;
+	margin-left: 0.3125rem !important;
+	margin-top: 0.2rem !important;
+	;
+}
+
+.leftMenu {
+	bottom: 0;
+	width: 3.8rem;
+	height: 93.5%;
+	padding: 0;
+	border-top: 0;
+	border-bottom: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #484E5E;
+	padding: 6rem 0;
+}
+
+.menuIco {
+	display: block;
+	text-align: center;
+}
+
+.menuIcoTxt {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.topSelect {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.topSelSeg {
+	border-right: #D0D0D0 solid 1px;
+}
+
+.cardContent {
+	clear: both;
+}
+
+.cardContent:after {
+	clear: both;
+}
+
+.cardFather {
+	height: 4rem;
+	width: 45%;
+	float: left;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+	margin: 0.625rem;
+}
+
+.cardHead:after,
+.cardHead:before {
+	background-color: #FFFFFF;
+}
+
+.cardHead {
+	width: 3rem;
+	height: 3rem;
+	margin: 0.5rem;
+	background: #f69457;
+	border-radius: 50%;
+	float: left;
+}
+
+.cardHeadTxt {
+	color: #FFFFFF;
+	font-size: 2rem;
+	display: block;
+	width: 1.5rem;
+	margin: 0 auto;
+	margin-top: 0.9rem;
+	margin-left: 0.9rem;
+}
+
+.patient {
+	margin-top: 0.7rem;
+	float: left;
+}
+
+.timing {
+	font-size: 0.8rem;
+	color: #D0D0D0;
+}
+
+.cardImg {
+	float: right;
+	margin: 1rem;
+}
+
+.cardImg img {
+	height: 1.5rem;
+	width: 1.5rem;
+}
+
+.noSwith {
+	margin: 2rem 0;
+}
+
+.patientInfo div {
+	display: inline-block;
+}
+
+.hasOver {
+	text-align: right;
+	padding-right: 1rem;
+}
+
+.patientDetailsInfo {
+	font-size: 0.7rem;
+}
+
+.detailTittle {
+	width: 100%;
+	border-bottom: #E8E8E8 0.15rem solid;
+	margin: 1rem 0;
+}
+
+.setFrequency {
+	width: 4rem;
+	margin-left: 30%;
+}
+
+.verticalLine {
+	display: inline-block;
+	height: 1.5rem;
+	width: 0.125rem;
+	line-height: 1.5rem;
+	background-color: #6F9AE9;
+	vertical-align: middle;
+}
+
+.lineTxt {
+	color: #6F9AE9;
+	line-height: 1.5rem;
+}
+
+.dialysisInstTime {
+	margin: 0 8% 0 0;
+}
+
+.docTemplate {
+	float: right;
+	height: 2.3rem;
+	background-color: #6F9AE9;
+	color: #FFFFFF;
+	font-size: 1.2rem;
+	line-height: 2.3rem;
+	border-radius: 7px;
+	width: 11rem;
+	text-align: center;
+	margin: 0.5rem 1rem;
+}
+
+.temDiv {
+	line-height: 3rem;
+}
+
+.tabWidth {
+	width: 24%;
+	display: inline-block;
+}
+
+.tabDteWidth {
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+.tabDteTit{
+	margin-left: 1rem;
+}
+.dataTable{
+	background-color: #DCDAD8;
+	font-size: 0.7rem;
+	width: 100%;
+	overflow-x: auto;
+}
+.dataTable table th{
+	height: 2rem;
+	width: 5rem;
+	border: 0.0625rem solid #FFFFFF;
+}
+.dataTable table td{
+	background-color: #FFFFFF;
+}

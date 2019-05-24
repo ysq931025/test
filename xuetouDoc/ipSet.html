@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/mui.css">
+		<link rel="stylesheet" href="css/common.css" />
+		
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav headerStyle">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left headerIcon"></a>
+			<h1 class="mui-title headTxt">IP端口</h1>
+		</header>
+		<div class="mui-content content">
+			<div class="mui-input-group ipInputDiv">
+				<span class="ipSetTxt">IP地址</span>
+				<input id="ipInputOne" type="number" class="mui-input-clear" maxlength="3" oninput="ipInputOne()"></input>
+				<input id="ipInputTwo" type="number" class="mui-input-clear" maxlength="3" oninput="ipInputTwo()"></input>
+				<input id="ipInputTrd" type="number" class="mui-input-clear" maxlength="3" oninput="ipInputTrd()"></input>
+				<input id="ipInputFor" type="number" class="mui-input-clear" maxlength="3" oninput="ipInputFor()"></input>
+			</div>
+			<div class="mui-input-group ipInputDiv">
+				<span class="ipSetTxt">端口号</span>
+				<input id="portNum" type="number" class="mui-input-clear sedIpInput"></input>
+			</div>
+			<div class="mui-input-group ipInputDiv">
+				<span class="ipSetTxt">TCP端口</span>
+				<input type="number" class="mui-input-clear TrdIpInput"></input>
+			</div>
+			<div class="saveBtnDiv">
+			<button type="button" id="ipSetSave" class="mui-btn-primary saveBtn">保存</button>
+			</div>
+		</div>
+	</body>
+	<script src="js/mui.js"></script>
+	<script src="js/jquery2.1.0.js"></script>
+	<script src="js/ipSet.js"></script>
+	<script type="text/javascript">
+		mui.init()
+	</script>
+</html>
